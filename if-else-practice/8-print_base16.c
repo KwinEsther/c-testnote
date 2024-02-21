@@ -9,11 +9,17 @@
 int main(void)
 {
 	int n = 48;
+	int p = 97;
 
 	while (n <= 57)
 	{
 		putchar(n);
 		n++;
+	}
+	while (p <= 102)
+	{
+		putchar (p);
+		p++;
 	}
 	putchar('\n');
 
